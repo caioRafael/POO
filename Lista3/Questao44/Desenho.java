@@ -1,19 +1,19 @@
 public class Desenho{
-    private FiguraGeometrica figuraA;
-    private FiguraGeometrica figuraB;
-    private double coordenadaX, coordenadaY;
+    private FiguraGeometrica figura1;
+    private FiguraGeometrica figura2;
+    private double x, y;
   
-    Desenho(FiguraGeometrica figuraA, FiguraGeometrica figuraB, double coordenadaX, double coordenadaY){
-      this.figuraA = figuraA;
-      this.figuraB = figuraB;
-      this.coordenadaX = coordenadaX;
-      this.coordenadaY = coordenadaY;
+    Desenho(FiguraGeometrica figura1, FiguraGeometrica figura2, double x, double y){
+      this.figura1 = figura1;
+      this.figura2 = figura2;
+      this.x = x;
+      this.y = y;
     }
   
     public void apresenta(){
-      this.figuraA.desenha();
-      this.figuraB.desenha();
-      System.out.println("Coordenada x: "+this.coordenadaX+" y: "+this.coordenadaY);
+      this.figura1.desenha();
+      this.figura2.desenha();
+      System.out.println("Coordenada x: "+this.x+" y: "+this.y);
     }
     
 }
