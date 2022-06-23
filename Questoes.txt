@@ -1,2 +1,2 @@
-questoes feitas: 37, 40-49
-questoes que nao foram feitas: 38,39
+questoes feitas: 1-17, 20-23, 25-37, 38, 40-46, 48,49
+questoes que nao foram feitas: 18, 19, 24,39, 47
